@@ -3,14 +3,11 @@
 @tailwind utilities;
 
 .background {
-    background-image: linear-gradient(to bottom right, #c5d4ee, #f1f3f5);
+    /* background-image: linear-gradient(to bottom right, #c5d4ee, #f1f3f5); */
+    background-image: linear-gradient(to bottom right, #c5d4ee, #afceeb);
+    /* background-image: linear-gradient(to bottom right, #c5d4ee, #0c64b6); */
     height: 100vh;
 }
-
-
-
-
-
 
 
 
@@ -45,15 +42,8 @@
 
 
 .body-half-screen{
-    /* max-height: 28vh; */
-    max-height: 58.8vh;
+    max-height: 63vh;
 }
-
-/* .body-half-screen-custom{
-    max-height: 16vh;
-} */
-
-
 
 
 
