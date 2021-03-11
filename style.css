@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+    background-image: linear-gradient(to bottom right, #c5d4ee, #f1f3f5);
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+/* CSS for custom table Start*/
+.table-scroll{
+    display: block;
+    empty-cells: show;
+}
+
+.table-scroll thead{
+    position: relative;
+    display: block;
+}
+
+.table-scroll tbody{
+    display: block; 
+    position: relative;
+    overflow-y: scroll;
+}
+
+.table-scroll tr{
+    width: 100%;
+    display: flex;
+}
+
+.table-scroll td,.table-scroll th{
+    flex-basis: 100%;
+    flex-grow: 2;
+    display: block;
+}
+
+
+
+.body-half-screen{
+    /* max-height: 28vh; */
+    max-height: 58.8vh;
+}
+
+/* .body-half-screen-custom{
+    max-height: 16vh;
+} */
+
+
+
+
+
+/* CSS for custom table End*/
