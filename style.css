@@ -41,13 +41,13 @@
 
 
 .body-half-screen{
-    max-height: 80vh;
+    max-height: 60.5vh;
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
     .body-half-screen{
         max-height: 60.5vh;
     }
-}
+} */
 
 /* CSS for custom table End*/
